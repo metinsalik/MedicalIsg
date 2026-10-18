@@ -1,0 +1,110 @@
+// Platform Core (Merkezi Veritabanı Şeması)
+// Tenants, Facilities, Users, Roles, Module Licenses ve Platform Ayarları
+
+datasource db {
+  provider = "postgresql"
+  url      = env("PLATFORM_DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../node_modules/@prisma/platform-client"
+}
+
+enum GlobalRole {
+  SUPER_ADMIN
+  GROUP_ADMIN
+  FACILITY_ADMIN
+  SAFETY_SPECIALIST
+  OCCUPATIONAL_PHYSICIAN
+  MAINTENANCE_SUPERVISOR
+  CONTRACTOR_REPRESENTATIVE
+  FIELD_WORKER
+  AUDITOR
+}
+
+enum DangerClass {
+  LESS_DANGEROUS
+  DANGEROUS
+  VERY_DANGEROUS
+}
+
+enum PlatformModule {
+  OPERATIONS
+  SAFETY
+  HEALTH
+  ASSETS
+  CONTRACTOR
+  WASTE
+}
+
+model TenantGroup {
+  id           String     @id @default(uuid())
+  name         String     // Örn: A Grup A.Ş.
+  taxNumber    String?
+  contactEmail String
+  contactPhone String?
+  facilities   Facility[]
+  users        User[]
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+model Facility {
+  id             String          @id @default(uuid())
+  groupId        String
+  group          TenantGroup     @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  name           String          // Örn: A Tesisi - Merkez Kampüs
+  city           String
+  address        String?
+  dangerClass    DangerClass     @default(DANGEROUS)
+  databaseUrl    String          // İzole Tenant DB bağlantı dizesi
+  databaseName   String          // Örn: isg_tenant_facility_uuid
+  licenses       ModuleLicense[]
+  users          User[]
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+
+  @@index([groupId])
+}
+
+model ModuleLicense {
+  id         String         @id @default(uuid())
+  facilityId String
+  facility   Facility       @relation(fields: [facilityId], references: [id], onDelete: Cascade)
+  module     PlatformModule
+  isActive   Boolean        @default(true)
+  expiresAt  DateTime?
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+
+  @@unique([facilityId, module])
+}
+
+model User {
+  id             String      @id @default(uuid())
+  email          String      @unique
+  passwordHash   String      // Argon2id
+  firstName      String
+  lastName       String
+  role           GlobalRole  @default(FIELD_WORKER)
+  groupId        String?
+  group          TenantGroup? @relation(fields: [groupId], references: [id])
+  facilityId     String?
+  facility       Facility?   @relation(fields: [facilityId], references: [id])
+  
+  // 2FA TOTP
+  is2faEnabled   Boolean     @default(false)
+  totpSecret     String?     // AES-256 şifreli saklanır
+  
+  // Telegram entegrasyonu
+  telegramChatId String?
+  
+  isActive       Boolean     @default(true)
+  lastLoginAt    DateTime?
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+
+  @@index([facilityId])
+  @@index([groupId])
+}

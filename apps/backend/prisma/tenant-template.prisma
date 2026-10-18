@@ -1,0 +1,91 @@
+// Tenant Template Schema (Her tesis için açılan izole veritabanı şablonu)
+// Bu şemadaki tablolar yalnızca ilgili tesisin iş verilerini tutar.
+
+datasource db {
+  provider = "postgresql"
+  url      = env("TENANT_DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../node_modules/@prisma/tenant-client"
+}
+
+enum TicketPriority {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+enum TicketStatus {
+  OPEN
+  IN_PROGRESS
+  PENDING_APPROVAL
+  RESOLVED
+  CLOSED
+}
+
+// 0. Katman Tesis İçi Tanımlar
+model Department {
+  id        String   @id @default(uuid())
+  name      String   // Örn: Kalıp Atölyesi, Poliklinik, İdari İşler
+  code      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  tickets   OperationTicket[]
+}
+
+model WorkCategory {
+  id        String   @id @default(uuid())
+  name      String   // Örn: Elektrik Arızası, Sıhhi Tesisat, Periyodik Bakım
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  tickets   OperationTicket[]
+}
+
+// 1. Modül: Operasyon Yönetimi (Arıza / Talep / Bakım Kayıtları)
+model OperationTicket {
+  id             String         @id @default(uuid())
+  ticketNumber   String         @unique // Örn: OP-2026-0001
+  title          String
+  description    String
+  priority       TicketPriority @default(MEDIUM)
+  status         TicketStatus   @default(OPEN)
+  
+  departmentId   String?
+  department     Department?    @relation(fields: [departmentId], references: [id])
+  categoryId     String?
+  category       WorkCategory?  @relation(fields: [categoryId], references: [id])
+  
+  reportedBy     String         // User ID (Platform DB referansı)
+  assignedTo     String?        // User ID
+  
+  // Kanıt Fotoğrafları / Ek Belgeler (MinIO URL'leri)
+  attachments    Json?          // [{ "url": "...", "name": "...", "size": 1234, "mime": "image/webp" }]
+  
+  resolvedAt     DateTime?
+  closedAt       DateTime?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  @@index([status])
+  @@index([priority])
+  @@index([reportedBy])
+}
+
+// Denetim İzi (Audit Trail)
+model TenantAuditLog {
+  id         String   @id @default(uuid())
+  userId     String
+  action     String   // Örn: TICKET_CREATED, TICKET_STATUS_CHANGED
+  entityType String   // Örn: OperationTicket
+  entityId   String
+  details    Json?
+  ipAddress  String?
+  userAgent  String?
+  createdAt  DateTime @default(now())
+
+  @@index([userId])
+  @@index([entityType, entityId])
+}
