@@ -1,0 +1,1 @@
+html/cards/icons-overview.html 1920 1190 1 /home/ubuntu/medical_isg_brand_v2/icons/icons-overview.png

@@ -1,0 +1,13 @@
+html/logos/medical-isg-horizontal-light.html 1200 400 2 /home/ubuntu/medical_isg_brand_v2/source/masters/h-light@2x.png
+html/logos/medical-isg-horizontal-dark.html 1200 400 2 /home/ubuntu/medical_isg_brand_v2/source/masters/h-dark@2x.png
+html/logos/medical-isg-horizontal-mono-black.html 1200 400 2 /home/ubuntu/medical_isg_brand_v2/source/masters/h-mono-black@2x.png
+html/logos/medical-isg-horizontal-mono-white.html 1200 400 2 /home/ubuntu/medical_isg_brand_v2/source/masters/h-mono-white@2x.png
+html/logos/medical-isg-stacked-light.html 1000 1000 1 /home/ubuntu/medical_isg_brand_v2/source/masters/s-light.png
+html/logos/medical-isg-stacked-dark.html 1000 1000 1 /home/ubuntu/medical_isg_brand_v2/source/masters/s-dark.png
+html/logos/medical-isg-icon-light.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/i-light.png
+html/logos/medical-isg-icon-dark.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/i-dark.png
+html/logos/medical-isg-icon-mono-black.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/i-mono-black.png
+html/logos/medical-isg-icon-mono-white.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/i-mono-white.png
+html/logos/app-icon-light.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/app-light.png
+html/logos/app-icon-dark.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/app-dark.png
+html/logos/favicon-mark.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/fav-mark.png

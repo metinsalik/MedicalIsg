@@ -1,0 +1,5 @@
+html/cards/palette-card.html 1920 1440 1 /home/ubuntu/medical_isg_brand_v2/cards/palette-card.png
+html/cards/palette-card.html 1920 1440 2 /home/ubuntu/medical_isg_brand_v2/source/masters/palette-card@2x.png
+html/cards/typography-card.html 1920 1400 1 /home/ubuntu/medical_isg_brand_v2/cards/typography-card.png
+html/cards/typography-card.html 1920 1400 2 /home/ubuntu/medical_isg_brand_v2/source/masters/typography-card@2x.png
+html/cards/icons-overview.html 1920 1480 1 /home/ubuntu/medical_isg_brand_v2/icons/icons-overview.png

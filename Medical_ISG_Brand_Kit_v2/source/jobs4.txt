@@ -1,0 +1,5 @@
+html/logos/medical-isg-horizontal-dark.html 1200 400 2 /home/ubuntu/medical_isg_brand_v2/source/masters/h-dark@2x.png
+html/logos/medical-isg-stacked-dark.html 1000 1000 1 /home/ubuntu/medical_isg_brand_v2/source/masters/s-dark.png
+html/logos/medical-isg-icon-dark.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/i-dark.png
+html/logos/app-icon-light.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/app-light.png
+html/logos/app-icon-dark.html 1024 1024 1 /home/ubuntu/medical_isg_brand_v2/source/masters/app-dark.png

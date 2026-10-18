@@ -1,0 +1,1492 @@
+{
+  "name": "Medical ISG Brand Tokens",
+  "version": "2.0.0",
+  "colors": {
+    "primary": {
+      "name_tr": "Klinik Teal",
+      "description": "Klinik güven, sağlık, temizlik — markanın ana rengi",
+      "scale": {
+        "50": {
+          "hex": "#EEFBF9",
+          "rgb": "rgb(238, 251, 249)",
+          "cmyk": "5/0/1/2",
+          "contrast_on_white": 1.06,
+          "contrast_on_neutral_950": 18.11
+        },
+        "100": {
+          "hex": "#D3F4EF",
+          "rgb": "rgb(211, 244, 239)",
+          "cmyk": "14/0/2/4",
+          "contrast_on_white": 1.17,
+          "contrast_on_neutral_950": 16.42
+        },
+        "200": {
+          "hex": "#A9E8E0",
+          "rgb": "rgb(169, 232, 224)",
+          "cmyk": "27/0/3/9",
+          "contrast_on_white": 1.37,
+          "contrast_on_neutral_950": 14.0
+        },
+        "300": {
+          "hex": "#72D5CB",
+          "rgb": "rgb(114, 213, 203)",
+          "cmyk": "46/0/5/16",
+          "contrast_on_white": 1.74,
+          "contrast_on_neutral_950": 11.06
+        },
+        "400": {
+          "hex": "#3DBAB0",
+          "rgb": "rgb(61, 186, 176)",
+          "cmyk": "67/0/5/27",
+          "contrast_on_white": 2.37,
+          "contrast_on_neutral_950": 8.09
+        },
+        "500": {
+          "hex": "#179E95",
+          "rgb": "rgb(23, 158, 149)",
+          "cmyk": "85/0/6/38",
+          "contrast_on_white": 3.3,
+          "contrast_on_neutral_950": 5.82
+        },
+        "600": {
+          "hex": "#0D7F79",
+          "rgb": "rgb(13, 127, 121)",
+          "cmyk": "90/0/5/50",
+          "contrast_on_white": 4.85,
+          "contrast_on_neutral_950": 3.96
+        },
+        "700": {
+          "hex": "#0E6662",
+          "rgb": "rgb(14, 102, 98)",
+          "cmyk": "86/0/4/60",
+          "contrast_on_white": 6.78,
+          "contrast_on_neutral_950": 2.83
+        },
+        "800": {
+          "hex": "#10514F",
+          "rgb": "rgb(16, 81, 79)",
+          "cmyk": "80/0/2/68",
+          "contrast_on_white": 9.08,
+          "contrast_on_neutral_950": 2.11
+        },
+        "900": {
+          "hex": "#0F4342",
+          "rgb": "rgb(15, 67, 66)",
+          "cmyk": "78/0/1/74",
+          "contrast_on_white": 11.04,
+          "contrast_on_neutral_950": 1.74
+        },
+        "950": {
+          "hex": "#042827",
+          "rgb": "rgb(4, 40, 39)",
+          "cmyk": "90/0/2/84",
+          "contrast_on_white": 15.7,
+          "contrast_on_neutral_950": 1.22
+        }
+      }
+    },
+    "secondary": {
+      "name_tr": "Kurumsal Lacivert",
+      "description": "B2B güvenilirlik, otorite, ciddiyet",
+      "scale": {
+        "50": {
+          "hex": "#F0F5FB",
+          "rgb": "rgb(240, 245, 251)",
+          "cmyk": "4/2/0/2",
+          "contrast_on_white": 1.1,
+          "contrast_on_neutral_950": 17.52
+        },
+        "100": {
+          "hex": "#DDE7F4",
+          "rgb": "rgb(221, 231, 244)",
+          "cmyk": "9/5/0/4",
+          "contrast_on_white": 1.25,
+          "contrast_on_neutral_950": 15.37
+        },
+        "200": {
+          "hex": "#C1D3EB",
+          "rgb": "rgb(193, 211, 235)",
+          "cmyk": "18/10/0/8",
+          "contrast_on_white": 1.52,
+          "contrast_on_neutral_950": 12.6
+        },
+        "300": {
+          "hex": "#97B6DD",
+          "rgb": "rgb(151, 182, 221)",
+          "cmyk": "32/18/0/13",
+          "contrast_on_white": 2.09,
+          "contrast_on_neutral_950": 9.19
+        },
+        "400": {
+          "hex": "#6691CB",
+          "rgb": "rgb(102, 145, 203)",
+          "cmyk": "50/29/0/20",
+          "contrast_on_white": 3.24,
+          "contrast_on_neutral_950": 5.92
+        },
+        "500": {
+          "hex": "#4472B8",
+          "rgb": "rgb(68, 114, 184)",
+          "cmyk": "63/38/0/28",
+          "contrast_on_white": 4.83,
+          "contrast_on_neutral_950": 3.97
+        },
+        "600": {
+          "hex": "#34599B",
+          "rgb": "rgb(52, 89, 155)",
+          "cmyk": "66/43/0/39",
+          "contrast_on_white": 6.89,
+          "contrast_on_neutral_950": 2.79
+        },
+        "700": {
+          "hex": "#2C477E",
+          "rgb": "rgb(44, 71, 126)",
+          "cmyk": "65/44/0/51",
+          "contrast_on_white": 9.09,
+          "contrast_on_neutral_950": 2.11
+        },
+        "800": {
+          "hex": "#263C68",
+          "rgb": "rgb(38, 60, 104)",
+          "cmyk": "63/42/0/59",
+          "contrast_on_white": 10.89,
+          "contrast_on_neutral_950": 1.76
+        },
+        "900": {
+          "hex": "#172A4A",
+          "rgb": "rgb(23, 42, 74)",
+          "cmyk": "69/43/0/71",
+          "contrast_on_white": 14.32,
+          "contrast_on_neutral_950": 1.34
+        },
+        "950": {
+          "hex": "#0D1A30",
+          "rgb": "rgb(13, 26, 48)",
+          "cmyk": "73/46/0/81",
+          "contrast_on_white": 17.39,
+          "contrast_on_neutral_950": 1.1
+        }
+      }
+    },
+    "accent": {
+      "name_tr": "Hi-Vis Turuncu",
+      "description": "Endüstriyel güvenlik, farkındalık, KKD yeleği — vurgu ve CTA",
+      "scale": {
+        "50": {
+          "hex": "#FFF5ED",
+          "rgb": "rgb(255, 245, 237)",
+          "cmyk": "0/4/7/0",
+          "contrast_on_white": 1.07,
+          "contrast_on_neutral_950": 17.86
+        },
+        "100": {
+          "hex": "#FFE8D4",
+          "rgb": "rgb(255, 232, 212)",
+          "cmyk": "0/9/17/0",
+          "contrast_on_white": 1.18,
+          "contrast_on_neutral_950": 16.23
+        },
+        "200": {
+          "hex": "#FFCDA8",
+          "rgb": "rgb(255, 205, 168)",
+          "cmyk": "0/20/34/0",
+          "contrast_on_white": 1.44,
+          "contrast_on_neutral_950": 13.3
+        },
+        "300": {
+          "hex": "#FFA970",
+          "rgb": "rgb(255, 169, 112)",
+          "cmyk": "0/34/56/0",
+          "contrast_on_white": 1.88,
+          "contrast_on_neutral_950": 10.21
+        },
+        "400": {
+          "hex": "#FF7B37",
+          "rgb": "rgb(255, 123, 55)",
+          "cmyk": "0/52/78/0",
+          "contrast_on_white": 2.58,
+          "contrast_on_neutral_950": 7.44
+        },
+        "500": {
+          "hex": "#FF5A10",
+          "rgb": "rgb(255, 90, 16)",
+          "cmyk": "0/65/94/0",
+          "contrast_on_white": 3.12,
+          "contrast_on_neutral_950": 6.15
+        },
+        "600": {
+          "hex": "#F03F06",
+          "rgb": "rgb(240, 63, 6)",
+          "cmyk": "0/74/98/6",
+          "contrast_on_white": 3.88,
+          "contrast_on_neutral_950": 4.95
+        },
+        "700": {
+          "hex": "#C72D07",
+          "rgb": "rgb(199, 45, 7)",
+          "cmyk": "0/77/96/22",
+          "contrast_on_white": 5.52,
+          "contrast_on_neutral_950": 3.48
+        },
+        "800": {
+          "hex": "#9E250E",
+          "rgb": "rgb(158, 37, 14)",
+          "cmyk": "0/77/91/38",
+          "contrast_on_white": 7.71,
+          "contrast_on_neutral_950": 2.49
+        },
+        "900": {
+          "hex": "#7F220F",
+          "rgb": "rgb(127, 34, 15)",
+          "cmyk": "0/73/88/50",
+          "contrast_on_white": 9.82,
+          "contrast_on_neutral_950": 1.96
+        },
+        "950": {
+          "hex": "#450D05",
+          "rgb": "rgb(69, 13, 5)",
+          "cmyk": "0/81/93/73",
+          "contrast_on_white": 16.0,
+          "contrast_on_neutral_950": 1.2
+        }
+      }
+    },
+    "success": {
+      "name_tr": "Uygun Yeşil",
+      "description": "Uygunluk, tamamlanan görev, düşük risk",
+      "scale": {
+        "50": {
+          "hex": "#F0FDF4",
+          "rgb": "rgb(240, 253, 244)",
+          "cmyk": "5/0/4/1",
+          "contrast_on_white": 1.05,
+          "contrast_on_neutral_950": 18.34
+        },
+        "100": {
+          "hex": "#DCFCE7",
+          "rgb": "rgb(220, 252, 231)",
+          "cmyk": "13/0/8/1",
+          "contrast_on_white": 1.1,
+          "contrast_on_neutral_950": 17.48
+        },
+        "200": {
+          "hex": "#BBF7D0",
+          "rgb": "rgb(187, 247, 208)",
+          "cmyk": "24/0/16/3",
+          "contrast_on_white": 1.21,
+          "contrast_on_neutral_950": 15.84
+        },
+        "300": {
+          "hex": "#86EFAC",
+          "rgb": "rgb(134, 239, 172)",
+          "cmyk": "44/0/28/6",
+          "contrast_on_white": 1.4,
+          "contrast_on_neutral_950": 13.68
+        },
+        "400": {
+          "hex": "#4ADE80",
+          "rgb": "rgb(74, 222, 128)",
+          "cmyk": "67/0/42/13",
+          "contrast_on_white": 1.74,
+          "contrast_on_neutral_950": 11.02
+        },
+        "500": {
+          "hex": "#22C55E",
+          "rgb": "rgb(34, 197, 94)",
+          "cmyk": "83/0/52/23",
+          "contrast_on_white": 2.28,
+          "contrast_on_neutral_950": 8.43
+        },
+        "600": {
+          "hex": "#16A34A",
+          "rgb": "rgb(22, 163, 74)",
+          "cmyk": "87/0/55/36",
+          "contrast_on_white": 3.3,
+          "contrast_on_neutral_950": 5.83
+        },
+        "700": {
+          "hex": "#15803D",
+          "rgb": "rgb(21, 128, 61)",
+          "cmyk": "84/0/52/50",
+          "contrast_on_white": 5.02,
+          "contrast_on_neutral_950": 3.83
+        },
+        "800": {
+          "hex": "#166534",
+          "rgb": "rgb(22, 101, 52)",
+          "cmyk": "78/0/49/60",
+          "contrast_on_white": 7.13,
+          "contrast_on_neutral_950": 2.69
+        },
+        "900": {
+          "hex": "#14532D",
+          "rgb": "rgb(20, 83, 45)",
+          "cmyk": "76/0/46/67",
+          "contrast_on_white": 9.11,
+          "contrast_on_neutral_950": 2.11
+        },
+        "950": {
+          "hex": "#052E16",
+          "rgb": "rgb(5, 46, 22)",
+          "cmyk": "89/0/52/82",
+          "contrast_on_white": 14.91,
+          "contrast_on_neutral_950": 1.29
+        }
+      }
+    },
+    "warning": {
+      "name_tr": "Dikkat Amber",
+      "description": "Orta risk, yaklaşan son tarih, eksik belge",
+      "scale": {
+        "50": {
+          "hex": "#FFFBEB",
+          "rgb": "rgb(255, 251, 235)",
+          "cmyk": "0/2/8/0",
+          "contrast_on_white": 1.04,
+          "contrast_on_neutral_950": 18.52
+        },
+        "100": {
+          "hex": "#FEF3C7",
+          "rgb": "rgb(254, 243, 199)",
+          "cmyk": "0/4/22/0",
+          "contrast_on_white": 1.11,
+          "contrast_on_neutral_950": 17.24
+        },
+        "200": {
+          "hex": "#FDE68A",
+          "rgb": "rgb(253, 230, 138)",
+          "cmyk": "0/9/45/1",
+          "contrast_on_white": 1.25,
+          "contrast_on_neutral_950": 15.42
+        },
+        "300": {
+          "hex": "#FCD34D",
+          "rgb": "rgb(252, 211, 77)",
+          "cmyk": "0/16/69/1",
+          "contrast_on_white": 1.44,
+          "contrast_on_neutral_950": 13.32
+        },
+        "400": {
+          "hex": "#FBBF24",
+          "rgb": "rgb(251, 191, 36)",
+          "cmyk": "0/24/86/2",
+          "contrast_on_white": 1.67,
+          "contrast_on_neutral_950": 11.5
+        },
+        "500": {
+          "hex": "#F59E0B",
+          "rgb": "rgb(245, 158, 11)",
+          "cmyk": "0/36/96/4",
+          "contrast_on_white": 2.15,
+          "contrast_on_neutral_950": 8.94
+        },
+        "600": {
+          "hex": "#D97706",
+          "rgb": "rgb(217, 119, 6)",
+          "cmyk": "0/45/97/15",
+          "contrast_on_white": 3.19,
+          "contrast_on_neutral_950": 6.03
+        },
+        "700": {
+          "hex": "#B45309",
+          "rgb": "rgb(180, 83, 9)",
+          "cmyk": "0/54/95/29",
+          "contrast_on_white": 5.02,
+          "contrast_on_neutral_950": 3.82
+        },
+        "800": {
+          "hex": "#92400E",
+          "rgb": "rgb(146, 64, 14)",
+          "cmyk": "0/56/90/43",
+          "contrast_on_white": 7.09,
+          "contrast_on_neutral_950": 2.71
+        },
+        "900": {
+          "hex": "#78350F",
+          "rgb": "rgb(120, 53, 15)",
+          "cmyk": "0/56/88/53",
+          "contrast_on_white": 9.07,
+          "contrast_on_neutral_950": 2.12
+        },
+        "950": {
+          "hex": "#451A03",
+          "rgb": "rgb(69, 26, 3)",
+          "cmyk": "0/62/96/73",
+          "contrast_on_white": 14.98,
+          "contrast_on_neutral_950": 1.28
+        }
+      }
+    },
+    "danger": {
+      "name_tr": "Kritik Kırmızı",
+      "description": "Yüksek risk, kaza/olay, hata, silme",
+      "scale": {
+        "50": {
+          "hex": "#FEF2F2",
+          "rgb": "rgb(254, 242, 242)",
+          "cmyk": "0/5/5/0",
+          "contrast_on_white": 1.09,
+          "contrast_on_neutral_950": 17.55
+        },
+        "100": {
+          "hex": "#FEE2E2",
+          "rgb": "rgb(254, 226, 226)",
+          "cmyk": "0/11/11/0",
+          "contrast_on_white": 1.22,
+          "contrast_on_neutral_950": 15.72
+        },
+        "200": {
+          "hex": "#FECACA",
+          "rgb": "rgb(254, 202, 202)",
+          "cmyk": "0/20/20/0",
+          "contrast_on_white": 1.45,
+          "contrast_on_neutral_950": 13.27
+        },
+        "300": {
+          "hex": "#FCA5A5",
+          "rgb": "rgb(252, 165, 165)",
+          "cmyk": "0/35/35/1",
+          "contrast_on_white": 1.9,
+          "contrast_on_neutral_950": 10.12
+        },
+        "400": {
+          "hex": "#F87171",
+          "rgb": "rgb(248, 113, 113)",
+          "cmyk": "0/54/54/3",
+          "contrast_on_white": 2.77,
+          "contrast_on_neutral_950": 6.94
+        },
+        "500": {
+          "hex": "#EF4444",
+          "rgb": "rgb(239, 68, 68)",
+          "cmyk": "0/72/72/6",
+          "contrast_on_white": 3.76,
+          "contrast_on_neutral_950": 5.1
+        },
+        "600": {
+          "hex": "#DC2626",
+          "rgb": "rgb(220, 38, 38)",
+          "cmyk": "0/83/83/14",
+          "contrast_on_white": 4.83,
+          "contrast_on_neutral_950": 3.98
+        },
+        "700": {
+          "hex": "#B91C1C",
+          "rgb": "rgb(185, 28, 28)",
+          "cmyk": "0/85/85/27",
+          "contrast_on_white": 6.47,
+          "contrast_on_neutral_950": 2.97
+        },
+        "800": {
+          "hex": "#991B1B",
+          "rgb": "rgb(153, 27, 27)",
+          "cmyk": "0/82/82/40",
+          "contrast_on_white": 8.31,
+          "contrast_on_neutral_950": 2.31
+        },
+        "900": {
+          "hex": "#7F1D1D",
+          "rgb": "rgb(127, 29, 29)",
+          "cmyk": "0/77/77/50",
+          "contrast_on_white": 10.02,
+          "contrast_on_neutral_950": 1.92
+        },
+        "950": {
+          "hex": "#450A0A",
+          "rgb": "rgb(69, 10, 10)",
+          "cmyk": "0/86/86/73",
+          "contrast_on_white": 16.14,
+          "contrast_on_neutral_950": 1.19
+        }
+      }
+    },
+    "info": {
+      "name_tr": "Bilgi Mavi",
+      "description": "Bilgilendirme, sistem mesajı, bağlantı",
+      "scale": {
+        "50": {
+          "hex": "#EFF8FF",
+          "rgb": "rgb(239, 248, 255)",
+          "cmyk": "6/3/0/0",
+          "contrast_on_white": 1.07,
+          "contrast_on_neutral_950": 17.87
+        },
+        "100": {
+          "hex": "#DBEEFE",
+          "rgb": "rgb(219, 238, 254)",
+          "cmyk": "14/6/0/0",
+          "contrast_on_white": 1.19,
+          "contrast_on_neutral_950": 16.16
+        },
+        "200": {
+          "hex": "#BFE2FE",
+          "rgb": "rgb(191, 226, 254)",
+          "cmyk": "25/11/0/0",
+          "contrast_on_white": 1.35,
+          "contrast_on_neutral_950": 14.2
+        },
+        "300": {
+          "hex": "#93D0FD",
+          "rgb": "rgb(147, 208, 253)",
+          "cmyk": "42/18/0/1",
+          "contrast_on_white": 1.66,
+          "contrast_on_neutral_950": 11.6
+        },
+        "400": {
+          "hex": "#60B5FA",
+          "rgb": "rgb(96, 181, 250)",
+          "cmyk": "62/28/0/2",
+          "contrast_on_white": 2.21,
+          "contrast_on_neutral_950": 8.68
+        },
+        "500": {
+          "hex": "#3B96F6",
+          "rgb": "rgb(59, 150, 246)",
+          "cmyk": "76/39/0/4",
+          "contrast_on_white": 3.05,
+          "contrast_on_neutral_950": 6.29
+        },
+        "600": {
+          "hex": "#2577EB",
+          "rgb": "rgb(37, 119, 235)",
+          "cmyk": "84/49/0/8",
+          "contrast_on_white": 4.27,
+          "contrast_on_neutral_950": 4.5
+        },
+        "700": {
+          "hex": "#1D61D8",
+          "rgb": "rgb(29, 97, 216)",
+          "cmyk": "87/55/0/15",
+          "contrast_on_white": 5.59,
+          "contrast_on_neutral_950": 3.43
+        },
+        "800": {
+          "hex": "#1E4FAF",
+          "rgb": "rgb(30, 79, 175)",
+          "cmyk": "83/55/0/31",
+          "contrast_on_white": 7.52,
+          "contrast_on_neutral_950": 2.55
+        },
+        "900": {
+          "hex": "#1E448A",
+          "rgb": "rgb(30, 68, 138)",
+          "cmyk": "78/51/0/46",
+          "contrast_on_white": 9.34,
+          "contrast_on_neutral_950": 2.06
+        },
+        "950": {
+          "hex": "#172B54",
+          "rgb": "rgb(23, 43, 84)",
+          "cmyk": "73/49/0/67",
+          "contrast_on_white": 13.91,
+          "contrast_on_neutral_950": 1.38
+        }
+      }
+    },
+    "neutral": {
+      "name_tr": "Arduvaz Nötr",
+      "description": "Metin, zemin, anahat — hafif soğuk, klinik",
+      "scale": {
+        "50": {
+          "hex": "#F7F9FB",
+          "rgb": "rgb(247, 249, 251)",
+          "cmyk": "2/1/0/2",
+          "contrast_on_white": 1.06,
+          "contrast_on_neutral_950": 18.19
+        },
+        "100": {
+          "hex": "#EEF2F6",
+          "rgb": "rgb(238, 242, 246)",
+          "cmyk": "3/2/0/4",
+          "contrast_on_white": 1.12,
+          "contrast_on_neutral_950": 17.07
+        },
+        "200": {
+          "hex": "#E2E8EF",
+          "rgb": "rgb(226, 232, 239)",
+          "cmyk": "5/3/0/6",
+          "contrast_on_white": 1.23,
+          "contrast_on_neutral_950": 15.57
+        },
+        "300": {
+          "hex": "#CBD4DF",
+          "rgb": "rgb(203, 212, 223)",
+          "cmyk": "9/5/0/13",
+          "contrast_on_white": 1.5,
+          "contrast_on_neutral_950": 12.82
+        },
+        "400": {
+          "hex": "#97A4B5",
+          "rgb": "rgb(151, 164, 181)",
+          "cmyk": "17/9/0/29",
+          "contrast_on_white": 2.53,
+          "contrast_on_neutral_950": 7.58
+        },
+        "500": {
+          "hex": "#677689",
+          "rgb": "rgb(103, 118, 137)",
+          "cmyk": "25/14/0/46",
+          "contrast_on_white": 4.64,
+          "contrast_on_neutral_950": 4.14
+        },
+        "600": {
+          "hex": "#4B596B",
+          "rgb": "rgb(75, 89, 107)",
+          "cmyk": "30/17/0/58",
+          "contrast_on_white": 7.14,
+          "contrast_on_neutral_950": 2.69
+        },
+        "700": {
+          "hex": "#374456",
+          "rgb": "rgb(55, 68, 86)",
+          "cmyk": "36/21/0/66",
+          "contrast_on_white": 9.89,
+          "contrast_on_neutral_950": 1.94
+        },
+        "800": {
+          "hex": "#222D3B",
+          "rgb": "rgb(34, 45, 59)",
+          "cmyk": "42/24/0/77",
+          "contrast_on_white": 13.94,
+          "contrast_on_neutral_950": 1.38
+        },
+        "900": {
+          "hex": "#131B26",
+          "rgb": "rgb(19, 27, 38)",
+          "cmyk": "50/29/0/85",
+          "contrast_on_white": 17.32,
+          "contrast_on_neutral_950": 1.11
+        },
+        "950": {
+          "hex": "#0A0F17",
+          "rgb": "rgb(10, 15, 23)",
+          "cmyk": "57/35/0/91",
+          "contrast_on_white": 19.2,
+          "contrast_on_neutral_950": 1.0
+        }
+      }
+    }
+  },
+  "semantic": {
+    "light": {
+      "background": {
+        "ref": "#FFFFFF",
+        "hex": "#FFFFFF"
+      },
+      "background-subtle": {
+        "ref": "neutral.50",
+        "hex": "#F7F9FB"
+      },
+      "surface": {
+        "ref": "#FFFFFF",
+        "hex": "#FFFFFF"
+      },
+      "surface-raised": {
+        "ref": "#FFFFFF",
+        "hex": "#FFFFFF"
+      },
+      "surface-sunken": {
+        "ref": "neutral.100",
+        "hex": "#EEF2F6"
+      },
+      "surface-inverse": {
+        "ref": "secondary.900",
+        "hex": "#172A4A"
+      },
+      "text": {
+        "ref": "neutral.900",
+        "hex": "#131B26"
+      },
+      "text-muted": {
+        "ref": "neutral.600",
+        "hex": "#4B596B"
+      },
+      "text-subtle": {
+        "ref": "neutral.500",
+        "hex": "#677689"
+      },
+      "text-inverse": {
+        "ref": "#FFFFFF",
+        "hex": "#FFFFFF"
+      },
+      "text-brand": {
+        "ref": "primary.700",
+        "hex": "#0E6662"
+      },
+      "text-link": {
+        "ref": "info.700",
+        "hex": "#1D61D8"
+      },
+      "border": {
+        "ref": "neutral.200",
+        "hex": "#E2E8EF"
+      },
+      "border-strong": {
+        "ref": "neutral.300",
+        "hex": "#CBD4DF"
+      },
+      "border-focus": {
+        "ref": "primary.500",
+        "hex": "#179E95"
+      },
+      "brand": {
+        "ref": "primary.600",
+        "hex": "#0D7F79"
+      },
+      "brand-hover": {
+        "ref": "primary.700",
+        "hex": "#0E6662"
+      },
+      "brand-fg": {
+        "ref": "#FFFFFF",
+        "hex": "#FFFFFF"
+      },
+      "brand-soft": {
+        "ref": "primary.50",
+        "hex": "#EEFBF9"
+      },
+      "accent": {
+        "ref": "accent.500",
+        "hex": "#FF5A10"
+      },
+      "accent-hover": {
+        "ref": "accent.400",
+        "hex": "#FF7B37"
+      },
+      "accent-fg": {
+        "ref": "neutral.950",
+        "hex": "#0A0F17"
+      },
+      "accent-text": {
+        "ref": "accent.700",
+        "hex": "#C72D07"
+      },
+      "success": {
+        "ref": "success.700",
+        "hex": "#15803D"
+      },
+      "success-soft": {
+        "ref": "success.50",
+        "hex": "#F0FDF4"
+      },
+      "warning": {
+        "ref": "warning.500",
+        "hex": "#F59E0B"
+      },
+      "warning-fg": {
+        "ref": "neutral.950",
+        "hex": "#0A0F17"
+      },
+      "warning-soft": {
+        "ref": "warning.50",
+        "hex": "#FFFBEB"
+      },
+      "danger": {
+        "ref": "danger.600",
+        "hex": "#DC2626"
+      },
+      "danger-soft": {
+        "ref": "danger.50",
+        "hex": "#FEF2F2"
+      },
+      "info": {
+        "ref": "info.700",
+        "hex": "#1D61D8"
+      },
+      "info-soft": {
+        "ref": "info.50",
+        "hex": "#EFF8FF"
+      }
+    },
+    "dark": {
+      "background": {
+        "ref": "neutral.950",
+        "hex": "#0A0F17"
+      },
+      "background-subtle": {
+        "ref": "neutral.900",
+        "hex": "#131B26"
+      },
+      "surface": {
+        "ref": "neutral.900",
+        "hex": "#131B26"
+      },
+      "surface-raised": {
+        "ref": "neutral.800",
+        "hex": "#222D3B"
+      },
+      "surface-sunken": {
+        "ref": "#06090E",
+        "hex": "#06090E"
+      },
+      "surface-inverse": {
+        "ref": "neutral.50",
+        "hex": "#F7F9FB"
+      },
+      "text": {
+        "ref": "neutral.50",
+        "hex": "#F7F9FB"
+      },
+      "text-muted": {
+        "ref": "neutral.300",
+        "hex": "#CBD4DF"
+      },
+      "text-subtle": {
+        "ref": "neutral.400",
+        "hex": "#97A4B5"
+      },
+      "text-inverse": {
+        "ref": "neutral.900",
+        "hex": "#131B26"
+      },
+      "text-brand": {
+        "ref": "primary.300",
+        "hex": "#72D5CB"
+      },
+      "text-link": {
+        "ref": "info.300",
+        "hex": "#93D0FD"
+      },
+      "border": {
+        "ref": "neutral.800",
+        "hex": "#222D3B"
+      },
+      "border-strong": {
+        "ref": "neutral.700",
+        "hex": "#374456"
+      },
+      "border-focus": {
+        "ref": "primary.400",
+        "hex": "#3DBAB0"
+      },
+      "brand": {
+        "ref": "primary.400",
+        "hex": "#3DBAB0"
+      },
+      "brand-hover": {
+        "ref": "primary.300",
+        "hex": "#72D5CB"
+      },
+      "brand-fg": {
+        "ref": "primary.950",
+        "hex": "#042827"
+      },
+      "brand-soft": {
+        "ref": "#0B2E2C",
+        "hex": "#0B2E2C"
+      },
+      "accent": {
+        "ref": "accent.400",
+        "hex": "#FF7B37"
+      },
+      "accent-hover": {
+        "ref": "accent.300",
+        "hex": "#FFA970"
+      },
+      "accent-fg": {
+        "ref": "neutral.950",
+        "hex": "#0A0F17"
+      },
+      "accent-text": {
+        "ref": "accent.300",
+        "hex": "#FFA970"
+      },
+      "success": {
+        "ref": "success.400",
+        "hex": "#4ADE80"
+      },
+      "success-soft": {
+        "ref": "#0C2A17",
+        "hex": "#0C2A17"
+      },
+      "warning": {
+        "ref": "warning.400",
+        "hex": "#FBBF24"
+      },
+      "warning-fg": {
+        "ref": "neutral.950",
+        "hex": "#0A0F17"
+      },
+      "warning-soft": {
+        "ref": "#2E2108",
+        "hex": "#2E2108"
+      },
+      "danger": {
+        "ref": "danger.400",
+        "hex": "#F87171"
+      },
+      "danger-soft": {
+        "ref": "#3A1212",
+        "hex": "#3A1212"
+      },
+      "info": {
+        "ref": "info.400",
+        "hex": "#60B5FA"
+      },
+      "info-soft": {
+        "ref": "#0F2440",
+        "hex": "#0F2440"
+      }
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "'Plus Jakarta Sans', 'Inter', system-ui, sans-serif",
+      "body": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "mono": "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace"
+    },
+    "scale": {
+      "display-2xl": [
+        "60px",
+        "68px",
+        "-0.025em",
+        800
+      ],
+      "display-xl": [
+        "48px",
+        "56px",
+        "-0.025em",
+        800
+      ],
+      "display-lg": [
+        "36px",
+        "44px",
+        "-0.02em",
+        700
+      ],
+      "h1": [
+        "30px",
+        "38px",
+        "-0.02em",
+        700
+      ],
+      "h2": [
+        "24px",
+        "32px",
+        "-0.015em",
+        700
+      ],
+      "h3": [
+        "20px",
+        "28px",
+        "-0.01em",
+        600
+      ],
+      "h4": [
+        "18px",
+        "26px",
+        "-0.005em",
+        600
+      ],
+      "body-lg": [
+        "18px",
+        "28px",
+        "0",
+        400
+      ],
+      "body": [
+        "16px",
+        "24px",
+        "0",
+        400
+      ],
+      "body-sm": [
+        "14px",
+        "20px",
+        "0",
+        400
+      ],
+      "caption": [
+        "12px",
+        "16px",
+        "0.01em",
+        500
+      ],
+      "overline": [
+        "12px",
+        "16px",
+        "0.12em",
+        600
+      ]
+    }
+  },
+  "radius": {
+    "none": "0",
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "16px",
+    "2xl": "24px",
+    "full": "9999px"
+  },
+  "shadow": {
+    "xs": "0 1px 2px rgba(10,15,23,.06)",
+    "sm": "0 1px 3px rgba(10,15,23,.08), 0 1px 2px rgba(10,15,23,.04)",
+    "md": "0 4px 12px -2px rgba(10,15,23,.10), 0 2px 4px -2px rgba(10,15,23,.06)",
+    "lg": "0 12px 32px -8px rgba(10,15,23,.16)",
+    "focus": "0 0 0 3px rgba(23,158,149,.35)"
+  },
+  "spacing_base": "4px",
+  "icons": {
+    "primary": [
+      {
+        "name": "dashboard",
+        "label": "Panel",
+        "source": "tabler:layout-dashboard"
+      },
+      {
+        "name": "users",
+        "label": "Kullanıcılar",
+        "source": "tabler:users"
+      },
+      {
+        "name": "roles",
+        "label": "Roller / Yetki",
+        "source": "tabler:user-shield"
+      },
+      {
+        "name": "user-check",
+        "label": "Personel Onay",
+        "source": "tabler:user-check"
+      },
+      {
+        "name": "risk-assessment",
+        "label": "Risk Değerlendirme",
+        "source": "tabler:gauge"
+      },
+      {
+        "name": "hazard",
+        "label": "Tehlike / Uyarı",
+        "source": "tabler:alert-triangle"
+      },
+      {
+        "name": "checklist",
+        "label": "Kontrol Listesi",
+        "source": "tabler:checklist"
+      },
+      {
+        "name": "task",
+        "label": "Görev",
+        "source": "tabler:clipboard-check"
+      },
+      {
+        "name": "report",
+        "label": "Rapor",
+        "source": "tabler:report"
+      },
+      {
+        "name": "analytics",
+        "label": "Analitik Rapor",
+        "source": "tabler:report-analytics"
+      },
+      {
+        "name": "file",
+        "label": "Dosya",
+        "source": "tabler:file-text"
+      },
+      {
+        "name": "file-pdf",
+        "label": "PDF",
+        "source": "tabler:file-type-pdf"
+      },
+      {
+        "name": "upload",
+        "label": "Yükleme",
+        "source": "tabler:cloud-upload"
+      },
+      {
+        "name": "download",
+        "label": "İndirme",
+        "source": "tabler:download"
+      },
+      {
+        "name": "camera",
+        "label": "Delil Fotoğrafı",
+        "source": "tabler:camera"
+      },
+      {
+        "name": "notification",
+        "label": "Bildirim",
+        "source": "tabler:bell"
+      },
+      {
+        "name": "shield-security",
+        "label": "Güvenlik / 2FA",
+        "source": "tabler:shield-lock"
+      },
+      {
+        "name": "compliance",
+        "label": "Uygunluk",
+        "source": "tabler:shield-check"
+      },
+      {
+        "name": "first-aid",
+        "label": "İlk Yardım",
+        "source": "tabler:first-aid-kit"
+      },
+      {
+        "name": "health",
+        "label": "Sağlık Gözetimi",
+        "source": "tabler:heartbeat"
+      },
+      {
+        "name": "medical-exam",
+        "label": "Muayene",
+        "source": "tabler:stethoscope"
+      },
+      {
+        "name": "ambulance",
+        "label": "Acil Durum",
+        "source": "tabler:ambulance"
+      },
+      {
+        "name": "ppe-hard-hat",
+        "label": "KKD / Baret",
+        "source": "lucide:hard-hat"
+      },
+      {
+        "name": "fire",
+        "label": "Yangın Riski",
+        "source": "tabler:flame"
+      },
+      {
+        "name": "fire-extinguisher",
+        "label": "Yangın Söndürücü",
+        "source": "tabler:fire-extinguisher"
+      },
+      {
+        "name": "calendar",
+        "label": "Takvim",
+        "source": "tabler:calendar-event"
+      },
+      {
+        "name": "search",
+        "label": "Arama",
+        "source": "tabler:search"
+      },
+      {
+        "name": "settings",
+        "label": "Ayarlar",
+        "source": "tabler:settings"
+      },
+      {
+        "name": "logout",
+        "label": "Çıkış",
+        "source": "tabler:logout"
+      },
+      {
+        "name": "menu",
+        "label": "Menü",
+        "source": "tabler:menu-2"
+      },
+      {
+        "name": "chevron-left",
+        "label": "Sol",
+        "source": "tabler:chevron-left"
+      },
+      {
+        "name": "chevron-right",
+        "label": "Sağ",
+        "source": "tabler:chevron-right"
+      },
+      {
+        "name": "chevron-up",
+        "label": "Yukarı",
+        "source": "tabler:chevron-up"
+      },
+      {
+        "name": "chevron-down",
+        "label": "Aşağı",
+        "source": "tabler:chevron-down"
+      },
+      {
+        "name": "filter",
+        "label": "Filtre",
+        "source": "tabler:filter"
+      },
+      {
+        "name": "workplace",
+        "label": "İşletme / İşyeri",
+        "source": "tabler:building-factory-2"
+      },
+      {
+        "name": "hospital",
+        "label": "Sağlık Kuruluşu",
+        "source": "tabler:building-hospital"
+      },
+      {
+        "name": "location",
+        "label": "Konum / Saha",
+        "source": "tabler:map-pin"
+      },
+      {
+        "name": "lock",
+        "label": "Kilit",
+        "source": "tabler:lock"
+      },
+      {
+        "name": "refresh",
+        "label": "Yenile",
+        "source": "tabler:refresh"
+      },
+      {
+        "name": "view",
+        "label": "Görüntüle",
+        "source": "tabler:eye"
+      },
+      {
+        "name": "add",
+        "label": "Ekle",
+        "source": "tabler:plus"
+      },
+      {
+        "name": "close",
+        "label": "Kapat",
+        "source": "tabler:x"
+      },
+      {
+        "name": "check",
+        "label": "Onay",
+        "source": "tabler:check"
+      },
+      {
+        "name": "edit",
+        "label": "Düzenle",
+        "source": "tabler:pencil"
+      },
+      {
+        "name": "delete",
+        "label": "Sil",
+        "source": "tabler:trash"
+      }
+    ],
+    "iconsax": [
+      {
+        "name": "dashboard",
+        "source": "iconsax:category"
+      },
+      {
+        "name": "users",
+        "source": "iconsax:profile-2user"
+      },
+      {
+        "name": "roles",
+        "source": "iconsax:security-user"
+      },
+      {
+        "name": "user-check",
+        "source": "iconsax:profile-tick"
+      },
+      {
+        "name": "risk-assessment",
+        "source": "iconsax:speedometer"
+      },
+      {
+        "name": "hazard",
+        "source": "iconsax:danger"
+      },
+      {
+        "name": "checklist",
+        "source": "iconsax:task-square"
+      },
+      {
+        "name": "task",
+        "source": "iconsax:clipboard-tick"
+      },
+      {
+        "name": "report",
+        "source": "iconsax:document-text"
+      },
+      {
+        "name": "file",
+        "source": "iconsax:document"
+      },
+      {
+        "name": "upload",
+        "source": "iconsax:document-upload"
+      },
+      {
+        "name": "camera",
+        "source": "iconsax:camera"
+      },
+      {
+        "name": "notification",
+        "source": "iconsax:notification"
+      },
+      {
+        "name": "shield-security",
+        "source": "iconsax:shield-security"
+      },
+      {
+        "name": "compliance",
+        "source": "iconsax:shield-tick"
+      },
+      {
+        "name": "hospital",
+        "source": "iconsax:hospital"
+      },
+      {
+        "name": "calendar",
+        "source": "iconsax:calendar"
+      },
+      {
+        "name": "search",
+        "source": "iconsax:search-normal"
+      },
+      {
+        "name": "settings",
+        "source": "iconsax:setting-2"
+      },
+      {
+        "name": "logout",
+        "source": "iconsax:logout-01"
+      },
+      {
+        "name": "menu",
+        "source": "iconsax:menu"
+      },
+      {
+        "name": "arrow-right",
+        "source": "iconsax:arrow-right-01"
+      },
+      {
+        "name": "arrow-down",
+        "source": "iconsax:arrow-down-01"
+      },
+      {
+        "name": "filter",
+        "source": "iconsax:filter"
+      },
+      {
+        "name": "workplace",
+        "source": "iconsax:building"
+      },
+      {
+        "name": "lock",
+        "source": "iconsax:lock"
+      },
+      {
+        "name": "refresh",
+        "source": "iconsax:refresh-arrow-01"
+      },
+      {
+        "name": "view",
+        "source": "iconsax:eye"
+      },
+      {
+        "name": "delete",
+        "source": "iconsax:trash"
+      },
+      {
+        "name": "edit",
+        "source": "iconsax:edit-2"
+      },
+      {
+        "name": "location",
+        "source": "iconsax:location"
+      },
+      {
+        "name": "timer",
+        "source": "iconsax:timer"
+      }
+    ],
+    "iconly": [
+      {
+        "name": "dashboard"
+      },
+      {
+        "name": "users"
+      },
+      {
+        "name": "user-role"
+      },
+      {
+        "name": "shield-check"
+      },
+      {
+        "name": "hazard"
+      },
+      {
+        "name": "checklist"
+      },
+      {
+        "name": "report"
+      },
+      {
+        "name": "file"
+      },
+      {
+        "name": "upload"
+      },
+      {
+        "name": "file-upload"
+      },
+      {
+        "name": "camera"
+      },
+      {
+        "name": "bell"
+      },
+      {
+        "name": "calendar"
+      },
+      {
+        "name": "search"
+      },
+      {
+        "name": "settings"
+      },
+      {
+        "name": "logout"
+      },
+      {
+        "name": "filter"
+      },
+      {
+        "name": "lock"
+      },
+      {
+        "name": "eye"
+      },
+      {
+        "name": "trash"
+      },
+      {
+        "name": "edit"
+      },
+      {
+        "name": "location"
+      },
+      {
+        "name": "analytics"
+      },
+      {
+        "name": "chart"
+      },
+      {
+        "name": "chevron-right"
+      },
+      {
+        "name": "chevron-down"
+      },
+      {
+        "name": "building"
+      },
+      {
+        "name": "info"
+      },
+      {
+        "name": "time"
+      },
+      {
+        "name": "add-user"
+      },
+      {
+        "name": "home"
+      },
+      {
+        "name": "download"
+      }
+    ]
+  }
+}

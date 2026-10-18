@@ -1,0 +1,228 @@
+/* Medical ISG — Brand Tokens v2.0.0
+ * Kaynak: tokens/brand-tokens.json  |  Kullanım: import "./brand-tokens.css";
+ * Ölçek değerleri RGB kanal olarak da verilir: rgb(var(--mi-primary-600-rgb) / 0.5)
+ */
+:root {
+  /* primary — Klinik Teal */
+  --mi-primary-50: #EEFBF9;  --mi-primary-50-rgb: 238 251 249;
+  --mi-primary-100: #D3F4EF;  --mi-primary-100-rgb: 211 244 239;
+  --mi-primary-200: #A9E8E0;  --mi-primary-200-rgb: 169 232 224;
+  --mi-primary-300: #72D5CB;  --mi-primary-300-rgb: 114 213 203;
+  --mi-primary-400: #3DBAB0;  --mi-primary-400-rgb: 61 186 176;
+  --mi-primary-500: #179E95;  --mi-primary-500-rgb: 23 158 149;
+  --mi-primary-600: #0D7F79;  --mi-primary-600-rgb: 13 127 121;
+  --mi-primary-700: #0E6662;  --mi-primary-700-rgb: 14 102 98;
+  --mi-primary-800: #10514F;  --mi-primary-800-rgb: 16 81 79;
+  --mi-primary-900: #0F4342;  --mi-primary-900-rgb: 15 67 66;
+  --mi-primary-950: #042827;  --mi-primary-950-rgb: 4 40 39;
+  /* secondary — Kurumsal Lacivert */
+  --mi-secondary-50: #F0F5FB;  --mi-secondary-50-rgb: 240 245 251;
+  --mi-secondary-100: #DDE7F4;  --mi-secondary-100-rgb: 221 231 244;
+  --mi-secondary-200: #C1D3EB;  --mi-secondary-200-rgb: 193 211 235;
+  --mi-secondary-300: #97B6DD;  --mi-secondary-300-rgb: 151 182 221;
+  --mi-secondary-400: #6691CB;  --mi-secondary-400-rgb: 102 145 203;
+  --mi-secondary-500: #4472B8;  --mi-secondary-500-rgb: 68 114 184;
+  --mi-secondary-600: #34599B;  --mi-secondary-600-rgb: 52 89 155;
+  --mi-secondary-700: #2C477E;  --mi-secondary-700-rgb: 44 71 126;
+  --mi-secondary-800: #263C68;  --mi-secondary-800-rgb: 38 60 104;
+  --mi-secondary-900: #172A4A;  --mi-secondary-900-rgb: 23 42 74;
+  --mi-secondary-950: #0D1A30;  --mi-secondary-950-rgb: 13 26 48;
+  /* accent — Hi-Vis Turuncu */
+  --mi-accent-50: #FFF5ED;  --mi-accent-50-rgb: 255 245 237;
+  --mi-accent-100: #FFE8D4;  --mi-accent-100-rgb: 255 232 212;
+  --mi-accent-200: #FFCDA8;  --mi-accent-200-rgb: 255 205 168;
+  --mi-accent-300: #FFA970;  --mi-accent-300-rgb: 255 169 112;
+  --mi-accent-400: #FF7B37;  --mi-accent-400-rgb: 255 123 55;
+  --mi-accent-500: #FF5A10;  --mi-accent-500-rgb: 255 90 16;
+  --mi-accent-600: #F03F06;  --mi-accent-600-rgb: 240 63 6;
+  --mi-accent-700: #C72D07;  --mi-accent-700-rgb: 199 45 7;
+  --mi-accent-800: #9E250E;  --mi-accent-800-rgb: 158 37 14;
+  --mi-accent-900: #7F220F;  --mi-accent-900-rgb: 127 34 15;
+  --mi-accent-950: #450D05;  --mi-accent-950-rgb: 69 13 5;
+  /* success — Uygun Yeşil */
+  --mi-success-50: #F0FDF4;  --mi-success-50-rgb: 240 253 244;
+  --mi-success-100: #DCFCE7;  --mi-success-100-rgb: 220 252 231;
+  --mi-success-200: #BBF7D0;  --mi-success-200-rgb: 187 247 208;
+  --mi-success-300: #86EFAC;  --mi-success-300-rgb: 134 239 172;
+  --mi-success-400: #4ADE80;  --mi-success-400-rgb: 74 222 128;
+  --mi-success-500: #22C55E;  --mi-success-500-rgb: 34 197 94;
+  --mi-success-600: #16A34A;  --mi-success-600-rgb: 22 163 74;
+  --mi-success-700: #15803D;  --mi-success-700-rgb: 21 128 61;
+  --mi-success-800: #166534;  --mi-success-800-rgb: 22 101 52;
+  --mi-success-900: #14532D;  --mi-success-900-rgb: 20 83 45;
+  --mi-success-950: #052E16;  --mi-success-950-rgb: 5 46 22;
+  /* warning — Dikkat Amber */
+  --mi-warning-50: #FFFBEB;  --mi-warning-50-rgb: 255 251 235;
+  --mi-warning-100: #FEF3C7;  --mi-warning-100-rgb: 254 243 199;
+  --mi-warning-200: #FDE68A;  --mi-warning-200-rgb: 253 230 138;
+  --mi-warning-300: #FCD34D;  --mi-warning-300-rgb: 252 211 77;
+  --mi-warning-400: #FBBF24;  --mi-warning-400-rgb: 251 191 36;
+  --mi-warning-500: #F59E0B;  --mi-warning-500-rgb: 245 158 11;
+  --mi-warning-600: #D97706;  --mi-warning-600-rgb: 217 119 6;
+  --mi-warning-700: #B45309;  --mi-warning-700-rgb: 180 83 9;
+  --mi-warning-800: #92400E;  --mi-warning-800-rgb: 146 64 14;
+  --mi-warning-900: #78350F;  --mi-warning-900-rgb: 120 53 15;
+  --mi-warning-950: #451A03;  --mi-warning-950-rgb: 69 26 3;
+  /* danger — Kritik Kırmızı */
+  --mi-danger-50: #FEF2F2;  --mi-danger-50-rgb: 254 242 242;
+  --mi-danger-100: #FEE2E2;  --mi-danger-100-rgb: 254 226 226;
+  --mi-danger-200: #FECACA;  --mi-danger-200-rgb: 254 202 202;
+  --mi-danger-300: #FCA5A5;  --mi-danger-300-rgb: 252 165 165;
+  --mi-danger-400: #F87171;  --mi-danger-400-rgb: 248 113 113;
+  --mi-danger-500: #EF4444;  --mi-danger-500-rgb: 239 68 68;
+  --mi-danger-600: #DC2626;  --mi-danger-600-rgb: 220 38 38;
+  --mi-danger-700: #B91C1C;  --mi-danger-700-rgb: 185 28 28;
+  --mi-danger-800: #991B1B;  --mi-danger-800-rgb: 153 27 27;
+  --mi-danger-900: #7F1D1D;  --mi-danger-900-rgb: 127 29 29;
+  --mi-danger-950: #450A0A;  --mi-danger-950-rgb: 69 10 10;
+  /* info — Bilgi Mavi */
+  --mi-info-50: #EFF8FF;  --mi-info-50-rgb: 239 248 255;
+  --mi-info-100: #DBEEFE;  --mi-info-100-rgb: 219 238 254;
+  --mi-info-200: #BFE2FE;  --mi-info-200-rgb: 191 226 254;
+  --mi-info-300: #93D0FD;  --mi-info-300-rgb: 147 208 253;
+  --mi-info-400: #60B5FA;  --mi-info-400-rgb: 96 181 250;
+  --mi-info-500: #3B96F6;  --mi-info-500-rgb: 59 150 246;
+  --mi-info-600: #2577EB;  --mi-info-600-rgb: 37 119 235;
+  --mi-info-700: #1D61D8;  --mi-info-700-rgb: 29 97 216;
+  --mi-info-800: #1E4FAF;  --mi-info-800-rgb: 30 79 175;
+  --mi-info-900: #1E448A;  --mi-info-900-rgb: 30 68 138;
+  --mi-info-950: #172B54;  --mi-info-950-rgb: 23 43 84;
+  /* neutral — Arduvaz Nötr */
+  --mi-neutral-50: #F7F9FB;  --mi-neutral-50-rgb: 247 249 251;
+  --mi-neutral-100: #EEF2F6;  --mi-neutral-100-rgb: 238 242 246;
+  --mi-neutral-200: #E2E8EF;  --mi-neutral-200-rgb: 226 232 239;
+  --mi-neutral-300: #CBD4DF;  --mi-neutral-300-rgb: 203 212 223;
+  --mi-neutral-400: #97A4B5;  --mi-neutral-400-rgb: 151 164 181;
+  --mi-neutral-500: #677689;  --mi-neutral-500-rgb: 103 118 137;
+  --mi-neutral-600: #4B596B;  --mi-neutral-600-rgb: 75 89 107;
+  --mi-neutral-700: #374456;  --mi-neutral-700-rgb: 55 68 86;
+  --mi-neutral-800: #222D3B;  --mi-neutral-800-rgb: 34 45 59;
+  --mi-neutral-900: #131B26;  --mi-neutral-900-rgb: 19 27 38;
+  --mi-neutral-950: #0A0F17;  --mi-neutral-950-rgb: 10 15 23;
+
+  --mi-font-display: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  --mi-font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mi-font-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  --mi-radius-none: 0;
+  --mi-radius-sm: 6px;
+  --mi-radius-md: 8px;
+  --mi-radius-lg: 12px;
+  --mi-radius-xl: 16px;
+  --mi-radius-2xl: 24px;
+  --mi-radius-full: 9999px;
+  --mi-shadow-xs: 0 1px 2px rgba(10,15,23,.06);
+  --mi-shadow-sm: 0 1px 3px rgba(10,15,23,.08), 0 1px 2px rgba(10,15,23,.04);
+  --mi-shadow-md: 0 4px 12px -2px rgba(10,15,23,.10), 0 2px 4px -2px rgba(10,15,23,.06);
+  --mi-shadow-lg: 0 12px 32px -8px rgba(10,15,23,.16);
+  --mi-shadow-focus: 0 0 0 3px rgba(23,158,149,.35);
+}
+
+:root, [data-theme="light"] {
+  color-scheme: light;
+  --mi-background: #FFFFFF;
+  --mi-background-subtle: #F7F9FB;
+  --mi-surface: #FFFFFF;
+  --mi-surface-raised: #FFFFFF;
+  --mi-surface-sunken: #EEF2F6;
+  --mi-surface-inverse: #172A4A;
+  --mi-text: #131B26;
+  --mi-text-muted: #4B596B;
+  --mi-text-subtle: #677689;
+  --mi-text-inverse: #FFFFFF;
+  --mi-text-brand: #0E6662;
+  --mi-text-link: #1D61D8;
+  --mi-border: #E2E8EF;
+  --mi-border-strong: #CBD4DF;
+  --mi-border-focus: #179E95;
+  --mi-brand: #0D7F79;
+  --mi-brand-hover: #0E6662;
+  --mi-brand-fg: #FFFFFF;
+  --mi-brand-soft: #EEFBF9;
+  --mi-accent: #FF5A10;
+  --mi-accent-hover: #FF7B37;
+  --mi-accent-fg: #0A0F17;
+  --mi-accent-text: #C72D07;
+  --mi-success: #15803D;
+  --mi-success-soft: #F0FDF4;
+  --mi-warning: #F59E0B;
+  --mi-warning-fg: #0A0F17;
+  --mi-warning-soft: #FFFBEB;
+  --mi-danger: #DC2626;
+  --mi-danger-soft: #FEF2F2;
+  --mi-info: #1D61D8;
+  --mi-info-soft: #EFF8FF;
+}
+
+[data-theme="dark"], .dark {
+  color-scheme: dark;
+  --mi-background: #0A0F17;
+  --mi-background-subtle: #131B26;
+  --mi-surface: #131B26;
+  --mi-surface-raised: #222D3B;
+  --mi-surface-sunken: #06090E;
+  --mi-surface-inverse: #F7F9FB;
+  --mi-text: #F7F9FB;
+  --mi-text-muted: #CBD4DF;
+  --mi-text-subtle: #97A4B5;
+  --mi-text-inverse: #131B26;
+  --mi-text-brand: #72D5CB;
+  --mi-text-link: #93D0FD;
+  --mi-border: #222D3B;
+  --mi-border-strong: #374456;
+  --mi-border-focus: #3DBAB0;
+  --mi-brand: #3DBAB0;
+  --mi-brand-hover: #72D5CB;
+  --mi-brand-fg: #042827;
+  --mi-brand-soft: #0B2E2C;
+  --mi-accent: #FF7B37;
+  --mi-accent-hover: #FFA970;
+  --mi-accent-fg: #0A0F17;
+  --mi-accent-text: #FFA970;
+  --mi-success: #4ADE80;
+  --mi-success-soft: #0C2A17;
+  --mi-warning: #FBBF24;
+  --mi-warning-fg: #0A0F17;
+  --mi-warning-soft: #2E2108;
+  --mi-danger: #F87171;
+  --mi-danger-soft: #3A1212;
+  --mi-info: #60B5FA;
+  --mi-info-soft: #0F2440;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --mi-background: #0A0F17;
+    --mi-background-subtle: #131B26;
+    --mi-surface: #131B26;
+    --mi-surface-raised: #222D3B;
+    --mi-surface-sunken: #06090E;
+    --mi-surface-inverse: #F7F9FB;
+    --mi-text: #F7F9FB;
+    --mi-text-muted: #CBD4DF;
+    --mi-text-subtle: #97A4B5;
+    --mi-text-inverse: #131B26;
+    --mi-text-brand: #72D5CB;
+    --mi-text-link: #93D0FD;
+    --mi-border: #222D3B;
+    --mi-border-strong: #374456;
+    --mi-border-focus: #3DBAB0;
+    --mi-brand: #3DBAB0;
+    --mi-brand-hover: #72D5CB;
+    --mi-brand-fg: #042827;
+    --mi-brand-soft: #0B2E2C;
+    --mi-accent: #FF7B37;
+    --mi-accent-hover: #FFA970;
+    --mi-accent-fg: #0A0F17;
+    --mi-accent-text: #FFA970;
+    --mi-success: #4ADE80;
+    --mi-success-soft: #0C2A17;
+    --mi-warning: #FBBF24;
+    --mi-warning-fg: #0A0F17;
+    --mi-warning-soft: #2E2108;
+    --mi-danger: #F87171;
+    --mi-danger-soft: #3A1212;
+    --mi-info: #60B5FA;
+    --mi-info-soft: #0F2440;
+  }
+}
